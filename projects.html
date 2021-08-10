@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .container{
+        display: flex; 
+        border-bottom: 1px solid gray;
+        background: gray;
+        height: 80px;
+        justify-content: center;  
+        align-items: center ;
+        position:sticky;
+        top: 0;
+    }
+    .citems{
+        
+        text-align: center;
+        font-family: century;
+        font-weight: bold;
+        font-size: 1.1rem;
+        padding: 8px 25px;
+        transition: all .5s ease;
+        color: rgb(7, 0, 0);
+    }
+    
+    .container1{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: justify;
+    }
+    .containerItems{
+        /* padding: 10px; */
+        width: 350px;
+        height: 350px;
+    
+        border:1px solid rgb(2, 2, 22);
+        border-radius: 15px;
+        margin:20px 25px;
+        background: linear-gradient(to top #0077b5 50%,white 50%);
+        background-size: 100px 200px;
+        transition: all .8s;
+    }
+    .containerItems:hover{
+        cursor: pointer;
+        background-position: bottom;
+        background: #EA4335;
+        color: white;
+        box-shadow: 0 0 10px #0077b5;
+    }
+    h2{
+        text-align: center;
+        font-family: century;
+        padding: 10px 0;
+    }
+    p{
+        padding: 10px;
+        text-align: justify;
+        text-align: center;
+        font-size: 15px;
+        font-family: century;
+    }
+    .head{
+        background: #0077b5;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20%;
+        color: white;
+        font-family: century;
+    }
+        a:hover{
+        cursor: pointer;
+        background: white;
+        color: black;
+        padding: 8px;
+        transition: all 0.8s;
+        box-shadow: 0 0 10px white;
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="citems"><a href="index.html">Home</a></div>
+        <div class="citems"><a href="about.html"> About</a> </div>
+        <div class="citems"><a href="projects.html">Projects</a></div>
+        <div class="citems"><a href="services.html">Services</a> </div>
+        <div class="citems"><a href="contact.html">Contact Me</a> </div>
+    </div>  
+    <div class="head">
+        <h1>Projects</h1>
+        <span>List of the Projects i have  done in college</span>
+    </div>
+    <div class="container1">
+        <div class="containerItems">
+            <h2>Smart Stick For Visually Impaired</h2>
+            <P>Our Smart stick’s mission is to provide customers with the finest specifications
+                in smart stick units. We exist to attract and maintain customers. When we
+                adhere to this maxim, everything else will fall in to place. Our services will
+                exceed the expectations of our customers.</P>
+        </div>
+        <div class="containerItems">
+            <h2>Car Rental Syatem</h2>
+            <P>We propose an idea that frees up the commitment of an individual to own a car. He/she
+                can use a car by renting it through online without actually owning it. </P>
+        </div>
+        <div class="containerItems">
+            <h2>Pseudorandom Number Generator for
+                Secure Application</h2>
+            <P>Set of values or elements that is statistically random, but it is derived from a known starting
+                point and is typically repeated over and over.
+                Random numbers are a fundamental tool in many cryptographic applications like key
+                generation, encryption, masking protocols, or for internet gambling.</P>
+        </div>      
+
+        <div class="containerItems">
+            <h2>Distributed Food Ordering System.</h2>
+            <P>The motivation behind this task is to build up an Online Food Ordering System. It
+                is a framework that empower client of nourishment to put in their request online whenever and
+                wherever. The motivation to build up the framework is because of the issues looking by the
+                nourishment business.</P>
+        </div>
+        <div class="containerItems">
+            <h2>Active Website Grabber.</h2>
+            <P>Simply having the capacity to transfer a file from one location to another isn’t
+                enough . Business today face multiple security threats and a high competitive environment
+                .They need a secure file transfer system to protect and reliably transfer their sensitive , business
+                - critical data.</P>
+        </div>
+        <div class="containerItems">
+            <h2>Virutal Private Network.</h2>
+            <P>VPN is one of the trending java projects.This goal of building this virtual private network(VPN) is to extend a private network across a public domain(for example,the Inernet).A VPN is created by setting up a point-to-point vritual connection via traffic excryption,dedication via traffic encryption,dedicated connections,or virtual tunneling protocals.</P>
+        </div>      
+   
+        <div class="containerItems">
+            <h2>Electricity Billing System.</h2>
+            <P>This project is a modern version of the traditional electricity billing system. The main focus of this Java project is to computerize the electricity billing system to make it more seamless, accessible, and efficient. The software calculates the units consumed within a specified time duration and accordingly calculates the amount of money to be paid for those units.</P>
+        </div>
+        <div class="containerItems">
+            <h2>Stock Management System</h2>
+            <P>This web-based Java application is designed to manage stocks for companies and organizations and also handle the sale and purchase of their products. The stock management system includes different modules and features for adding, editing, viewing, and deleting items in the system database.</P>
+        </div>
+    </div>
+</body>
+</html>

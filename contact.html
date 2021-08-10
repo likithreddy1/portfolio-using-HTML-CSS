@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        }
+        .container{
+            display: flex; 
+            border-bottom: 1px solid gray;
+            background: gray;
+            height: 80px;
+            justify-content: center;  
+            align-items: center ;
+            position:sticky;
+            top: 0;
+        }
+        .citems{
+            
+            text-align: center;
+            font-family: century;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 8px 25px;
+            transition: all .5s ease;
+            color: white;
+        }
+        .container a:hover{
+            cursor: pointer;
+            padding: 8px;
+            transition: all 0.4s;
+            background: white;
+            color: black;
+            box-shadow: 0 0 10px white;
+            width: 500px;
+        }
+        #empty{
+            background: steelblue;
+            width: 100%;
+            height: 200px;
+        }
+        h1{
+            color: white;
+            font-family: century;
+            font-weight: 900;
+            font-size: 45px;
+            margin-left: 200px;
+            padding-top: 70px;
+        }
+        .text{
+            border: 2px solid black;
+            padding: 10px 10px;
+            margin-right: 15px;
+            width: 300px;
+            height: 45px;
+        }
+        textarea{
+            border: 2px solid black;
+            width: 98%;
+        }
+        h2{
+            padding: 10px 0;
+            font-family: century;
+            font-size: 25px;
+        }
+        #textsection
+        {
+            padding-left: 10px;
+        }
+        #likith{
+            display: flex;
+        }
+        #social{
+            display: flex;
+            align-self: center;
+            font-size: 25px;
+        }
+        .socialitems{
+            
+            width: 120px;
+            height: 50px;
+            cursor: pointer;
+            margin-right: 20px;
+            text-align: center;
+            color:white;
+            padding: 10px;
+        }
+        .Facebook{
+            border:1px solid #4267B2;
+            border-radius: 5px;
+            background: #4267B2;
+            color: white;
+            padding: 5px 2px;
+        }
+        .Twitter{
+            border:1px solid #1da1f2;
+            border-radius: 5px;
+            background: #1DA1F2;
+            padding: 5px 2px;
+        }
+        .LinkedIn{
+            border:1px solid #0077b5;
+            border-radius: 5px;
+            background: #0077b5;
+            padding: 5px 2px;
+        }
+        .Mail{
+            border:1px solid #EA4335;
+            border-radius: 5px;
+            background: #EA4335;
+            padding: 5px 2px;
+        }
+        button{
+            cursor: pointer;
+            border: 2px solid black;
+            outline: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            background:whitesmoke;
+            font-size: 20px;
+            font-family: century;
+            width: 200px;
+            height: 50px;
+            color:black;
+        }
+        .Facebook:hover{
+            border: none;
+            box-shadow: 0 0 10px #4267B2;
+        }
+        .Twitter:hover{
+            border: none;
+            box-shadow: 0 0 10px #1DA1F2 ;
+        }
+        .LinkedIn:hover{
+            border: none;
+            box-shadow: 0 0 10px #0077b5;
+        }
+        .Mail:hover{
+            border: none;
+            box-shadow: 0 0 10px #EA4335;
+        }
+        button:hover{
+            background:gray;
+            color: rgb(0, 0, 0);
+            border: none;
+            box-shadow: 0 0 10px gray;
+            
+        }
+        textarea{
+            padding: 5px;
+        }
+        a{
+            font-family: century;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="citems"><a  href="index.html" >Home</a></div>
+        <div class="citems"><a href="about.html"> About</a> </div>
+        <div class="citems"><a href="projects.html">Projects</a></div>
+        <div class="citems"><a href="services.html">Services</a> </div>
+        <div class="citems"><a href="contact.html">Contact Me</a> </div>
+    </div>  
+    <div id="empty">
+        <h1>Contact</h1>
+    </div> 
+    <section id="likith">
+        <div id="textsection">
+            <form action="data.txt">
+            <h2>Text Me</h2>
+            <input class="text" type="text" placeholder="Name">
+            <input class="text" type="email" placeholder="Email Address">
+            <br><br>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <button>Submit</button>
+            </form>
+        </div>
+        <div id="social">
+            <div class="socialitems Facebook"><a href="https://www.facebook.com/likhith.reddy.927" target="_blank">Facebook</a></div>
+            <div class="socialitems Twitter"><a href="https://twitter.com/Likith_reddy789" target="_blank">Twitter</a></div>
+            <div class="socialitems LinkedIn"><a href="https://www.linkedin.com/in/likith-reddy-b90b55188/" target="_blank"> LinkedIn</a> </div>
+            <div class="socialitems Mail"><a href="mailto:baireddylikithreddy@gmail.com">Mail</a></div>
+        </div>
+    </section>
+    
+</body>
+</html>

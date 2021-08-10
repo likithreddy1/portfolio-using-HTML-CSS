@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex; 
+            border-bottom: 1px solid gray;
+            background: gray;
+            height: 80px;
+            justify-content: center;  
+            align-items: center ;
+            position:sticky;
+            top: 0;
+        }
+        .citems{
+            
+            text-align: center;
+            font-family: century;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 8px 25px;
+            transition: all .5s ease;
+            color: white;
+        }
+        .head{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            padding-left: 200px;
+            padding-top: 90px;
+            background:#0077b5;
+            background-size: cover;
+            width: 100%;
+            height: 200px;
+        }   
+        #intro{
+            text-align: center;
+            font-family: century;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 50px 50px;
+            color:black;
+        }  
+        a:hover{
+            cursor: pointer;
+            background: white;
+            color: black;
+            padding: 8px;
+            transition: all 0.4s;
+            box-shadow: 0 0 10px white;
+            width: 500px;
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="citems"><a href="index.html">Home</a></div>
+        <div class="citems"><a href="about.html"> About</a> </div>
+        <div class="citems"><a href="projects.html">Projects</a></div>
+        <div class="citems"><a href="services.html">Services</a> </div>
+        <div class="citems"><a href="contact.html">Contact Me</a> </div>
+    </div>  
+    <section>
+        <div class="head">
+            <h1>
+                ABOUT ME
+            </h1>
+            <p>Find out who i am...</p>
+        </div>       
+        <div id="intro">
+            <p style="text-align: justify;">I am a M Tech Integrated Software Engineering student at VIT University. Due to graduate in the coming months, I am eager to secure challenging roles in software engineering.
+
+                After the third year of my degree I undertook a one month internship at an software company in Hyderabad. I was delighted to be presented with the opportunity to utilise the skills gained during my studies to solve problems in the software engineering world. During the course of this internship, I played developed a web pages that connects various social networks at one place. This webpage helps us to know the interests of a person clearly.
+                
+                My studies have provided me with broad proficiency in the use of software engineering methods, tools, software packages and techniques. Alongside this, I have developed sound communication skills while delivering presentations to students in my class. As such, I am confident that I can make an instant impact in engineering roles.
+                
+                I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.
+                
+                My key skills include: Java , HTML , CSS, Javascript , Mysql.
+                </p>
+        </div>
+    </section>
+</body>
+</html>
